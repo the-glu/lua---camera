@@ -8,7 +8,6 @@ ENDIF()
 FIND_PACKAGE(Torch REQUIRED)
 
 if (UNIX AND NOT APPLE)
-    add_subdirectory (opencv)
     add_subdirectory (video4linux)
 endif (UNIX AND NOT APPLE)
 
